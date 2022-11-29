@@ -11,6 +11,9 @@ yarn bootstrap
 ```
 
 While developing, you can run the [example app](/example/) to test your changes.
+**Note:** The iOS Simulator won't show the system picker pop-up when you click
+on the picker, so in iOS, you'll need to run the example app on a real device
+if you want to see the pop-up.
 
 To start the packager:
 
@@ -49,7 +52,7 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C files, open `example/ios/AvroutepickerExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-avroutepicker`.
+To edit the Objective-C files, open `example/ios/AvroutepickerExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-avroutepickerview`.
 
 To edit the Kotlin files, open `example/android` in Android studio and find the source files at `reactnativeavroutepicker` under `Android`.
 

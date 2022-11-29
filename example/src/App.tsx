@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import AVRoutePicker from 'react-native-avroutepicker';
+import AVRoutePicker from 'react-native-avroutepickerview';
 
 export default function App() {
   return (

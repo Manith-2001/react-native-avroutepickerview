@@ -22,11 +22,12 @@ RCT_EXPORT_MODULE(AVRoutePicker)
 - (UIView *)view
 {
   SASAVRoutePickerView *picker = [SASAVRoutePickerView new];
+  
   picker.delegate = self;
   // picker.activeTintColor = UIColor.whiteColor;
   // picker.tintColor = UIColor.whiteColor;
   // picker.alpha = 0.45f;
-  return  picker;
+  return picker;
 }
 
 @end

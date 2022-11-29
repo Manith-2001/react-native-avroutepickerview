@@ -1,7 +1,7 @@
 {
   "name": "react-native-avroutepicker-example",
-  "description": "Example app for react-native-avroutepicker",
-  "version": "0.0.1",
+  "description": "Example app for react-native-avroutepickerview",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -9,8 +9,8 @@
     "start": "react-native start"
   },
   "dependencies": {
-    "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react": "18.1.0",
+    "react-native": "0.70.6"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
