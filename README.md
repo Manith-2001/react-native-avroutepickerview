@@ -23,13 +23,21 @@ sytsem picker menu is to run it on a device.
 
 ## Usage
 
-```js
-import AVRoutePicker from 'react-native-avroutepickerview';
+```tsx
+import AVRoutePickerView from 'react-native-avroutepickerview';
 
 // ...
 
-<AVRoutePicker />;
+<AVRoutePicker color="white" activeColor="blue" />;
 ```
+
+### Properties
+
+| Name | Type | Description |
+|------|------|-------------|
+| color | string | (*optional*) Icon color when AirPlay is inactive. |
+| activeColor | string | (*optional*) Icon color when AirPlay is active. |
+
 
 ## Contributing
 

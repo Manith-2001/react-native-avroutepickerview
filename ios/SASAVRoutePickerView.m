@@ -11,4 +11,13 @@
 #import "SASAVRoutePickerView.h"
 
 @implementation SASAVRoutePickerView
+
+- (void)setColor:(UIColor *)color {
+  self.tintColor = color;
+}
+
+- (void)setActiveColor:(UIColor *)activeColor {
+  self.activeTintColor = activeColor;
+}
+
 @end

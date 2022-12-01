@@ -18,15 +18,14 @@
 @implementation SASAVRoutePickerManager
 
 RCT_EXPORT_MODULE(AVRoutePicker)
+RCT_EXPORT_VIEW_PROPERTY(color, UIColor)
+RCT_EXPORT_VIEW_PROPERTY(activeColor, UIColor)
 
 - (UIView *)view
 {
   SASAVRoutePickerView *picker = [SASAVRoutePickerView new];
-  
+
   picker.delegate = self;
-  // picker.activeTintColor = UIColor.whiteColor;
-  // picker.tintColor = UIColor.whiteColor;
-  // picker.alpha = 0.45f;
   return picker;
 }
 

@@ -1,11 +1,15 @@
-import * as React from 'react';
+import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import AVRoutePicker from 'react-native-avroutepickerview';
+import AVRoutePickerView from '../../src';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AVRoutePicker style={styles.avRoutePicker} />
+      <AVRoutePickerView
+        style={styles.avRoutePicker}
+        color="white"
+        activeColor="green"
+      />
     </View>
   );
 }
